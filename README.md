@@ -1,4 +1,6 @@
 # break-project
+
+Trello link: https://trello.com/b/7AxGy73P/wardrobe
 - What is the goal of the project?
   - The goal of this project is to create a website where you can keep track of all possible outfits you can make with your wardrobe and organize them by season/category
 - Who is the target audience (can be just yourself)?
