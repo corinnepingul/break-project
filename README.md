@@ -27,8 +27,10 @@ Trello link: https://trello.com/b/7AxGy73P/wardrobe
     - User can create an outfit and add items to that outfit
     - User can assign a category to their outfit
     - User can search outfits by category
+    - User can edit an outfit (add/remove items and category)
     - User experience is fluid and enjoyable
   - Wave 2:
+    - User can edit an item
     - User can login via facebook (OmniAuth)
     - User can upload photos of items
   - Wave 3:
