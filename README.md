@@ -1,1 +1,33 @@
 # break-project
+- What is the goal of the project?
+  - The goal of this project is to create a website where you can keep track of all possible outfits you can make with your wardrobe and organize them by season/category
+- Who is the target audience (can be just yourself)?
+  - My friend and I were going through her closet to get rid of clothes and try to figure out what she could still use and pair with other things
+  - The next day she realized she couldn't remember anything we'd come up with, so this is for her and maybe some other people would get some use of it too
+- What are your personal learning goals?
+  - I want to solidify my understanding of relational databases
+  - I would like to use our new understanding of JS/Jquery/Ajax to make the user experience more fluid than in some of our other db projects
+- What technologies/frameworks/patterns will you be employing?
+  - I will be doing TDD using Rspec
+  - Ruby, Rails, MySQL backend and middleware
+  - JS/JqueryBootstrap, HTML, and CSS for frontend
+  - Tools: Trello, ERD, Pry, Better Errors
+- What are the tech and/or skill dependencies of your project?
+  - Understanding relational databases
+  - Understanding authentication and authorization
+  - Sticking to TDD to catch errors that may arise as I add functionality
+  - Understanding how to use JS to load information with limited calls to db
+- What does success look like for this project? What does done mean?
+  - Wave 1:
+    - User can login/logout
+    - User cannot see other user's wardrobes
+    - User can add items to their wardrobe
+    - User can create an outfit and add items to that outfit
+    - User can assign a category to their outfit
+    - User can search outfits by category
+    - User experience is fluid and enjoyable
+  - Wave 2:
+    - User can login via facebook (OmniAuth)
+    - User can upload photos of items
+  - Wave 3:
+    - Use a weather API to determine the temperature of the location the user is in and use that to recommend an outfit for the day
