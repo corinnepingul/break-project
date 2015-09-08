@@ -1,9 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  describe "model validations" do
-    let(:user) { create(:user) }
+  let(:user) { create(:user) }
 
+  describe "model validations" do
     it "requires a unique username" do
       user
       user2 = build(:user, email: "other email")
@@ -37,6 +37,23 @@ RSpec.describe User, type: :model do
 
       expect(diff_password_user).to_not be_valid
       expect(same_password_user).to be_valid
+    end
+  end
+
+  describe "model associations" do
+    it "has many categories"do
+      create(:category)
+      expect(user.categories.count).to eq 1
+    end
+
+    it "has many outfits" do
+      create(:outfit)
+      expect(user.outfits.count).to eq 1
+    end
+
+    it "has many items" do
+      create(:item)
+      expect(user.items.count).to eq 1
     end
   end
 end
